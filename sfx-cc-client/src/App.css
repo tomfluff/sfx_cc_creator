@@ -1,0 +1,13 @@
+.App {
+  text-align: center;
+}
+
+.video-container video{
+    width: 100%;
+}
+
+region.wavesurfer-region:before {
+    content: attr(data-region-label);
+    position: absolute;
+    left: 1rem;
+}
